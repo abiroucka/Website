@@ -1,0 +1,104 @@
+body {
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0;
+}
+
+nav {
+    font-weight: 800;
+    height: 80px;
+    text-align: left;
+    display: flex;
+    position: fixed;
+    background: rgb(0, 0, 0);
+    width: 100%;
+}
+
+nav ul {
+    /* 
+If these next three lines are confusing, don't worry!
+They're not intuitive until you've learned some of 
+the pitfalls of unordered lists (abbreviated ul).
+*/
+    margin: 30px, 30px;
+    padding: 0;
+    list-style: none;
+    /*  */
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.masthead {
+    width: 100%;
+}
+.header {
+    text-align: center;
+    height: calc(100vh - 20px);
+    background: rgb(255, 255, 255);
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.header-arrow {
+    transform: rotate(45deg) translateY(-15px) translateX(5px);
+    border-bottom: 1px solid transparent;
+    border-right: 1px solid transparent;
+    bottom: 5px;
+    height: 30px;
+    position: absolute;
+    width: 30px;
+    border-bottom-color: #282828;
+    border-right-color: #282828;
+}
+.header-arrow-container {
+    bottom: 45px;
+    position: absolute;
+    left: calc(50% - 30px);
+    cursor: pointer;
+    height: 40px;
+    width: 60px;
+}
+
+h1 {
+    font-size: 100px;
+    margin: 0px;
+    padding-top: 200px;
+    scroll-padding-top: 200px;
+}
+
+span {
+    font-size: 20px;
+}
+.monogram {
+    font-size: 50px;
+    text-align: center;
+    width: 0%;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-decoration-line: none;
+    text-decoration-color: white;
+}
+.links {
+    text-align: left;
+    width: 45%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+.design {
+    width: 100%;
+}
+.design-links {
+    width: 100%;
+}
